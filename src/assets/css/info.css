@@ -1,0 +1,110 @@
+.options-container {
+    background-color: #9A031E; 
+    padding: 10px;
+    border-radius: 30px; 
+    text-align: center;
+}
+header {
+    background-color: #5F0F40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    max-width: 50%;
+    height: auto;
+}
+
+header .col:last-child {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body, main {
+    background-color: #333; 
+    color: #fff; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: #FF0000;
+}
+
+nav {
+    background-color: #9A031E;
+    padding: 10px;
+    text-align: center;
+    color: #FF0000;
+}  
+
+footer {
+    background: #5F0F40; 
+    padding: 10px;
+    text-align: center; 
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#corporate-info {
+    background-color: #9A031E;
+    padding: 20px;
+}
+
+#location {
+    height: 400px;
+    background-color: #333; 
+}
+
+#mision img,
+#vision img {
+    height: 300px; 
+    display: block; 
+    margin: 0 auto;
+    border-radius: 32px; 
+}
+
+.imagen-circular {
+    border-radius: 50%;
+    display: block;
+}

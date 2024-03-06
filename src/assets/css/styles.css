@@ -1,0 +1,264 @@
+.options-container {
+    background-color: #9A031E; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: #FF0000;
+}
+
+header {
+    background-color: #5F0F40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    max-width: 50%;
+    height: auto;
+}
+
+header .col:last-child {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.search-bar {
+    margin-top: 20px;
+    text-align: left; 
+
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #E36414;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #E36414;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.highlight-box {
+    background-color: #E36414;
+    border-radius: 30px;
+    padding: 20px;
+    color: #FFF;
+}
+
+
+.contact-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    background: #5F0F40; 
+    padding: 10px;
+    text-align: center; 
+    color: white;
+}
+
+main, body {
+    background-color: #333; 
+    color: #fff;
+}
+
+.contact-section {
+    background-color: #E36414;
+    padding: 40px 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info, .redes-media {
+    margin-top: 20px;
+}
+
+.contact-info p, .redes-media p {
+    margin-bottom: 10px;
+}
+
+.redes-media {
+    text-align: center;
+}
+
+.redes-media img {
+    width: 40px; 
+    height: 40px;
+    margin: 5px;
+}
+
+.redes-media li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.offer-section {
+    background-color: #333;
+    padding: 40px 20px; 
+    text-align: center;
+}
+.offer-box {
+    background-color: #AC87C5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px; /* Espacio entre las ofertas */
+}
+
+.offer-box:hover {
+    transform: scale(1.05);
+}
+
+.offer-box img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.offer-box h3, .offer-box p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.offer-box button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ff8800; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px; 
+}
+
+.offer-box button:hover {
+    background-color: #cc6a00;
+}
+.pagos-options-section {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.pagos-options-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pagos-option {
+    margin: 10px;
+    text-align: center;
+}
+
+.pagos-option img {
+    max-width: 100px;
+}
+
+.Testimonios-section {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonio-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.cliente-info {
+    font-style: italic;
+}
+
+.formulario-section {
+    background-color: #5F0F40;
+    padding: 20px;
+    text-align: center;
+}
+
+#formulario-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario-form label {
+    margin: 10px 0;
+}
+
+#formulario-form input {
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario-form button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #9A031E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario-form button:hover {
+    background-color: #45a049;
+}
+
+.highlight-box {
+    background-color: #E36414;
+    border-radius: 30px;
+    padding: 20px;
+    color: #FFF;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+}
